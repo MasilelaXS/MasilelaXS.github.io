@@ -1,0 +1,81 @@
+body {
+	min-width: 400px;
+}
+.head {
+	background-color: rgba(255,255,255,1);
+	width: 100%;
+}
+.head a:hover {
+	color: inherit;
+}
+.contact-nav li {
+	display: inline-block;
+	list-style-type: none;
+}
+.contact-nav a {
+	padding: 15px 15px;
+}
+.nav-profile {
+	background-image: url(../images/navbg.png);
+	background-color: #454545;
+	background-size: cover;
+	background-position: center;
+}
+.nav-profile img {
+	width: 50%;
+}
+.biography img {
+	width: 100%;
+}
+.skills{
+	background-image: url(../images/bg.png);
+	background-color: #000;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.portfolio img {
+	width: 100%;
+	cursor: pointer;
+}
+#tertiary img {
+	width: 100%;
+}
+#secondary img {
+	width: 100%;
+}
+#primary img {
+	width: 100%;
+}
+.contact .container{
+	padding-left: 100px;
+	padding-right: 100px;
+}
+#form-holder {
+		background-color: rgba(255,255,255,.9);
+		border-radius: 5px;
+}
+.contact {
+	background-image: url(../images/contact.png);
+	background-color: #000;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.contact a {
+	padding: 15px 45px;
+}
+.contact i {
+	font-size: 30px;
+	padding: 10px 10px;
+	color: #fff;
+}
+.contact i:hover {
+	color: #454545;
+}
+@media (max-width: 800px){
+	.contact .container{
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
