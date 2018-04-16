@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -397,18 +398,18 @@
 					<div class="divider"></div>
 					<br><br><br>
 				</div>
-				<form>
+				<form method="post" action="sendmail.php">
 					<div class="row center-xs center-md center-lg">
 						<div class="col s12 m6 l6 wow fadeInDown" data-wow-delay="0.1s">
 							<div class="input-field">
-								<input type="text" id="name">
+								<input type="text" name="name" id="name">
 								<label class="active" for="name">Name</label>
 							</div>
 						</div>
 						<div class="col s12 m6 l6 wow fadeInDown" data-wow-delay="0.2s">
 							<div class="input-field">
-								<input type="text" id="surname">
-								<label class="active" for="surname">Surname</label>
+								<input type="text" name="subject" id="subject">
+								<label class="active" for="subject">Subject</label>
 							</div>
 						</div>
 						<div class="col s12 m12 l12 wow fadeInDown" data-wow-delay="0.4s">
@@ -419,13 +420,13 @@
 						</div>
 						<div class="col s12 m12 l12 wow fadeInDown" data-wow-delay="0.5s">
 							<div class="input-field">
-								<textarea type="text" id="textarea" class="materialize-textarea"></textarea>
+								<textarea type="text" name="message" id="textarea" class="materialize-textarea"></textarea>
 								<label class="active" for="textarea">Comment</label>
 							</div>
 						</div>
 						<div class="col s12 m5 l5 wow fadeInDown" data-wow-delay="0.6s">
-							<button type="reset" class="btn waves-effect waves-light red">Clear</button>
-							<button class="btn waves-effect waves-light">Send</button>
+							<button type="reset" class="btn waves-effect waves-light red hoverable">Clear</button>
+							<button type="submit" name="submit" class="btn waves-effect waves-light hoverable">Send</button>
 						</div>
 						<div class="col s12 m7 l7">
 							<a href="#" class="wow fadeIn" data-wow-delay="0.10s"><i class="fa fa-envelope"></i>xsmasilela@yahoo.com</a>
