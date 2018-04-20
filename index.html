@@ -397,8 +397,10 @@
 				<div class="row">
 					<div class="divider"></div>
 					<br><br><br>
+
+					<p><?php echo $msg ?></p>
 				</div>
-				<form method="post" action="sendmail.php">
+				<form method="post" action="send.php">
 					<div class="row center-xs center-md center-lg">
 						<div class="col s12 m6 l6 wow fadeInDown" data-wow-delay="0.1s">
 							<div class="input-field">
@@ -414,7 +416,7 @@
 						</div>
 						<div class="col s12 m12 l12 wow fadeInDown" data-wow-delay="0.4s">
 							<div class="input-field">
-							<input type="email" id="email" class="validate">
+							<input type="email" name="email" id="email" class="validate">
 								<label class="active" for="email">Email</label>
 							</div>
 						</div>
